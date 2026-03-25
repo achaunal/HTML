@@ -1,0 +1,13 @@
+h3{
+    color:green;
+}
+*{
+    font-size: 30px;
+    font-weight:500;
+}
+h4{
+    color:purple;
+}
+.myclass{color:greenyellow}
+#myid{color:rgb(168, 36, 36)}
+p, h5 {color:aquamarine}
