@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Box shadow
+        </title>
+        <style>
+            *{
+                text-align: center;
+                font-family:monospace;
+            }
+            #text{
+                text-shadow: 2px 2px  1px #CC5500;
+                /* (right-offset)px (left-offset)px (fade)px color */
+
+            }
+            #box{
+                box-shadow:9px 9px 5px #173867;
+                 /* (right-offset)px (left-offset)px (fade)px color */
+            }
+            #indent{
+                text-indent: 50%; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="text">We can use text-shadow to give this text a shadow</h1>
+        <h1 id="box">Or we can use box-shadow to give shadow outside of this box</h1>
+        <div>
+            <p>
+                This is an example of text-indent
+            </p>
+            <p id="indent"> This is an example of text-indent</p>
+        </div>
+    </body>
+
+</html>
